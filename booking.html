@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - Café Bliss</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+<header>
+
+   <div id="navbar">
+
+            <a id="logo" href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="Menu.html">Menu</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Booking.html">Booking</a>
+            <a href="Contact.html">Contact us</a>
+
+            <input type="text" placeholder="Search Coffee">
+            
+            <button>Search</button>
+    
+    </div>
+
+</header>
+
+<section class="page-title">
+    <h1>Book Your Table</h1>
+    <p>Reserve your perfect table at Café Bliss</p>
+</section>
+
+<section class="form-container">
+
+    <form action="confirmation.html" method="get">
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number">
+
+        <label>Booking Date</label>
+        <input type="date">
+
+        <label>Booking Time</label>
+        <input type="time">
+
+        <label>Number of Guests</label>
+
+        <select>
+            <option>Select Guests</option>
+            <option>1 Person</option>
+            <option>2 People</option>
+            <option>3 People</option>
+            <option>4 People</option>
+            <option>5+ People</option>
+        </select>
+
+        
+
+        <label>Special Requirements</label>
+
+        <textarea rows="5" placeholder="Write your requirements"></textarea>
+
+        <div class="check">
+            <input type="checkbox">
+            <label>I agree to the booking terms.</label>
+        </div>
+
+        <input type="submit" value="Book Table" class="submit-btn">
+
+    </form>
+
+    
+</section>
+
+<footer>
+    <p> Café Bliss | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
